@@ -1,25 +1,28 @@
-header  {
-    text-align: center;
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-header nav ul{
-    float: center;
 
-    display: flex;
-    background-color: rgb(57, 57, 81);
-    justify-content: center;
-    list-style: none;
+/* Header Section */
+.header{
+    overflow: hidden;
+    background-color: #f7f7f7;
+    padding: 80px 60px 40px;
 }
-header a {
-    text-decoration: none;
-    margin: 0.5em;
-}
-li a {
-    display: block;
-    color: white;
+.header a{
+    float: left;
+    color: black;
     text-align: center;
-    padding: 10px 15px;
+    padding: 12px;
     text-decoration: none;
-  }
-li a:hover {
-    background-color: yellowgreen;
+    font-size: 20px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a:hover {
+    background-color: #ffc022;
+    color: black;
+}
+.headerright{
+    float: right;
 }
