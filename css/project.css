@@ -28,11 +28,41 @@ h1 {
     background-color: #ffc022;
 }
 .header a:hover {
-    background-color: #ffc022;
+    background-color: #e4e3e3;
     color: black;
 }
 .headerright{
     float: right;
+}
+
+/* E learning section */
+.eLearning {
+    text-align: center;
+    padding: 50px;
+}
+.herosection {
+    display: flex;
+}
+.columnleft {
+    width: 50%;
+    flex: 50%;
+    padding: 0 10px 0 0;
+}
+.columnright {
+    width: 50%;
+    flex: 50%;
+    padding: 0 10px 0 0;
+}
+.herosection::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* Monster Card section */
+.monster{
+    text-align: center;
+    padding: 50px;
 }
 
 /* Footer */
