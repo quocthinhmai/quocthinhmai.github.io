@@ -53,23 +53,23 @@ body {
 }
 
 /* Project Table section */
-#project {
+#projectTable {
     border: 1px solid darkgray;
     border-collapse: collapse;
     width: 80%;
     position: absolute;
     left: 60px;
 }
-#project thead {
+#projectTable thead {
     background-color: #ffc022;
-    text-align: center;
+    text-align: left;
     border: 1px solid rgb(196, 196, 196);
 }
-#project td {
+#projectTable td {
     border: 1px solid rgb(196, 196, 196);
 }
 #project tbody tr {
-    text-align: center;
+    text-align: left;
     border: 1px solid rgb(196, 196, 196);
 }
 .detail {
