@@ -57,7 +57,7 @@ body {
     border: 1px solid darkgray;
     border-collapse: collapse;
     width: 80%;
-    position: absolute;
+    position: relative;
     left: 60px;
 }
 #projectTable thead {
@@ -78,7 +78,6 @@ body {
     background-color: #ffc022;
     padding: 5px;
     color: rgb(26, 26, 26);
-    position: relative;
     float: right;
 }
 /* Footer */

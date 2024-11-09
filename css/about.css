@@ -37,8 +37,33 @@ body {
     text-align: center;
 }
 
+/* Education section */
+
+#educationTable{
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    width: 85%;
+    position: relative;
+    left: 60px;
+}
+#educationTable thead {
+    background-color: #ffc022;
+    text-align: left;
+    border: 1px solid rgb(196, 196, 196);
+}
+#educationTable td {
+    border: 1px solid rgb(196, 196, 196);
+}
+#educationTable tbody tr {
+    text-align: left;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+
+/* Contact */
 .contactSection{
     text-align: center;
+    padding: 50px;
 }
 .button{
     background-color: #e3a300;
