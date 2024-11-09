@@ -52,12 +52,13 @@ body {
     display: table;
 }
 
-/* Project section */
+/* Project Table section */
 #project {
-    
     border: 1px solid darkgray;
     border-collapse: collapse;
-    width: 100%;
+    width: 80%;
+    position: absolute;
+    left: 60px;
 }
 #project thead {
     background-color: #ffc022;
@@ -72,12 +73,13 @@ body {
     border: 1px solid rgb(196, 196, 196);
 }
 .detail {
-    float: right;
     text-decoration: none;
     border: 1px solid #ffc022;
     background-color: #ffc022;
     padding: 5px;
     color: rgb(26, 26, 26);
+    position: relative;
+    float: right;
 }
 /* Footer */
 .footer {

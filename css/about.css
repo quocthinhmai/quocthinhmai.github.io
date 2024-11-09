@@ -31,6 +31,28 @@ body {
     float: right;
 }
 
+/* Background section */
+.backgroundSection{
+    padding: 50px;
+    text-align: center;
+}
+
+.contactSection{
+    text-align: center;
+}
+.button{
+    background-color: #e3a300;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+
 /* Footer */
 .footer {
     position: fixed;
