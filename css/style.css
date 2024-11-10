@@ -118,16 +118,7 @@ body {
 }
 .eLearningHero {
     display: flex;
-}
-.eLearningLeft {
-    width: 50%;
-    flex: 50%;
-    padding: 0 10px 0 0;
-}
-.eLearningRight {
-    width: 50%;
-    flex: 50%;
-    padding: 0 10px 0 0;
+    justify-content: center;
 }
 .herosection::after {
     clear: both;
