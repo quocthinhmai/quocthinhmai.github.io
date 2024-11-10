@@ -135,10 +135,9 @@ body {
 
 /* Footer */
 .footer {
-    position: relative;
+    position: absolute;
     width: 100%;
     text-align: center;
     padding: 20px;
     background-color: white;
-    min-height: 100%;
 }
