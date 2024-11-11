@@ -184,9 +184,23 @@ h1 {
 
 /* Responsive Home page hero section */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .herosection{
         text-align: center;
         flex-wrap: wrap-reverse;
+    }
+    .wrapper{
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        margin: auto;
+    }
+    .headerright{
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+    .header a {
+        position: relative;
+        justify-content: center;
     }
 }
