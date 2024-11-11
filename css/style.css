@@ -1,7 +1,9 @@
 body { 
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Navigation Section */
@@ -135,9 +137,9 @@ body {
 
 /* Footer */
 .footer {
-    position: absolute;
     width: 100%;
+    padding: 20px 0 10px 0 ;
     text-align: center;
-    padding: 20px;
     background-color: white;
+    margin-top: auto;
 }
