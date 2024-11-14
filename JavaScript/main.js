@@ -15,7 +15,7 @@ const time = new Date().getHours();
 let greeting;
 if (time < 12) {
     greeting = "Good Morning!";
-} else if (time < 18) {
+} else if (time < 17) {
     greeting = "Good Afternoon!";
 } else {
     greeting = "Good Evening!";
