@@ -1,7 +1,9 @@
 // Button Email
-function myFunction() {
+const emailBtn = document.getElementById("btn-alert");
+
+emailBtn.addEventListener('click', () =>{
     alert("My Email: kevmai228@gmail.com");
-}
+})
 
 //display and update Year automatically
 const fYear = document.getElementById("footerYear");
@@ -22,3 +24,4 @@ if (time < 12) {
 }
 document.getElementById("hello").innerHTML = greeting;
 
+// Hover button
