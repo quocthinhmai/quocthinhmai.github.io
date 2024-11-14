@@ -1,9 +1,13 @@
 // Button Email
-const emailBtn = document.getElementById("btn-alert");
+//const emailBtn = document.getElementById("btn-alert");
 
 //emailBtn.addEventListener('click', () => {
 //   alert("My Email: kevmai228@gmail.com");
 //})
+
+function emailBtn() {
+    document.getElementById("btn-alert").innerHTML = "My email: kevmai228@gmail.com";
+}
 
 //display and update Year automatically
 const fYear = document.getElementById("footerYear");
