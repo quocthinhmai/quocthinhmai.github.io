@@ -8,3 +8,17 @@ const fYear = document.getElementById("footerYear");
 const d = new Date();
 const year = d.getFullYear(); 
 fYear.textContent = d.getFullYear();
+
+
+// Greeting function
+const time = new Date().getHours();
+let greeting;
+if (time < 12) {
+    greeting = "Good Morning!";
+} else if (time < 18) {
+    greeting = "Good Afternoon!";
+} else {
+    greeting = "Good Evening!";
+}
+document.getElementById("hello").innerHTML = greeting;
+
