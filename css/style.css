@@ -203,3 +203,14 @@ header a:hover {
         justify-content: center;
     }
 }
+
+/* Loop */
+.loop {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+ol li {
+    margin: 1em;
+}
