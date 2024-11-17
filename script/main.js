@@ -5,6 +5,7 @@
 //   alert("My Email: kevmai228@gmail.com");
 //})
 
+//Email button
 function emailBtn() {
     document.getElementById("btn-alert").innerHTML = "My email: kevmai228@gmail.com";
 }
@@ -28,3 +29,18 @@ if (time < 12) {
 document.getElementById("hello").innerHTML = greeting;
 
 // Hover button
+const learnmoreBtn = document.getElementById('btn-alert');
+
+learnmoreBtn.addEventListener("mouseover", () => {
+    learnmoreBtn.style.backgroundColor = 'green';
+    learnmoreBtn.textContent = "Learn More About Me"
+});
+    // Mouse Out
+learnmoreBtn.addEventListener("mouseout", () => {
+    learnmoreBtn.style.backgroundColor = '';
+    learnmoreBtn.textContent = "Learn More"
+});
+    //alert Button
+learnmoreBtn.addEventListener("click", () => {
+    alert("I like fried chicken :)")
+});
