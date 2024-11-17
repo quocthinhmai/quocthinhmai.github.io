@@ -15,10 +15,13 @@ const time = new Date().getHours();
 let greeting;
 if (time < 12) {
     greeting = "Good Morning!";
+    document.getElementById("hello").style.color="green"
 } else if (time >= 12 && time <= 17) {
     greeting = "Good Afternoon!";
+    document.getElementById("hello").style.color="orange"
 } else {
     greeting = "Good Evening!";
+    document.getElementById("hello").style.color="blue"
 }
 document.getElementById("hello").innerHTML = greeting;
 
@@ -49,8 +52,8 @@ for (let i = 1; i <= 12; i = i + 1) {
     else {
         listItem.textContent =("odd");
     }
-    document.getElementById("number").appendChild(listItem);
-  };
+    document.getElementById("numbers").appendChild(listItem);
+};
 
 // Console log current date
 const currentDate = new Date();
